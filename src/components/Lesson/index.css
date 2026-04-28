@@ -1,0 +1,59 @@
+.contenedorFrase {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fraseRandom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem
+}
+
+.fraseRandom h1 {
+    color: yellow;
+}
+
+.fraseRandom h2 {
+    color: white;
+}
+
+.centro {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.centro h1 {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+}
+
+.clicksArriba {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    color: yellow;
+    gap: 600px;
+    font-size: 1.25rem;
+}
+
+.clicksAbajo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    color: yellow;
+    gap: 600px;
+    font-size: 1.25rem;
+    margin-top: 20px;
+}

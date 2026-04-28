@@ -1,0 +1,66 @@
+.background {
+  width: 100%;
+  background: rgb(10, 11, 39);
+  background-image: url("fondo.png");
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+}
+
+.contenedorPrincipal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;  
+  gap: 30px;
+}
+
+.contenedorIzq {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: grey;
+  margin-left: 20px; 
+}
+
+.contenedorCentral {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(63, 63, 203);
+  padding: 30px;
+  cursor: pointer;
+}
+
+.contenedorDch {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.contenedorBajo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(99, 99, 99);
+  color: white;
+}
+
+.fuego{
+	background: url("fuego.gif");
+}
+
+.flecha {
+  transform: rotate(90deg);
+  margin-left: 50px;
+}
